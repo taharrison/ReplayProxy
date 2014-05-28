@@ -22,3 +22,4 @@ _ReSharper*/
 *.ncrunchproject
 *.ncrunchsolution
 TestResults/*
+packages/*

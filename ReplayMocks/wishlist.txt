@@ -1,7 +1,39 @@
-﻿tidy code
-serialise without double xml escaping
+﻿properties
+
+
+better feedback for behaviour verifier
+	behaviour verifier should show exception details when an unexpected exception is thrown
+	behaviour verifier should allow you to generate a history/recording file
+
+recorder
+	ensure histories are generated with unique calls
+
+equality strategy for BV   *** requested by steve
+
+
+flags for behaviour in order / idempotent / stateless   *** requested by alan
+
+
+check if functions have out/ref parameters and fail on recording if so ***
+
+
+support functions with out parameters **
+
+
+log types and return types as both base and actual??
+
+
+better exceptions when unexpected calls happen 
+
 data structure to support fast look up
+
+make serialisation and equality check into a strategy
+
+tidy code
+
+
 check if types are uniquely /accurately serialisable
-cache proxy
-verify behaviour
+tool to help identify if a type is serialisable - deep equality check using reflection
+
+
 

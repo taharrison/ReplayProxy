@@ -1,0 +1,34 @@
+﻿<History>
+  <Calls>
+    <LoggedCall MethodName="GetContactsWithMissingInformationByFilters" MethodDeclaringTypeName="ReplayMocks.ExampleDomain.IRepository, ReplayMocks.ExampleDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ReturnType="ReplayMocks.ExampleDomain.ContactListResult, ReplayMocks.ExampleDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ReturnValue>
+        <ContactListResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <contacts>
+            <contact>
+              <Id>12343</Id>
+              <FirstName>Tony</FirstName>
+              <LastName>Todd</LastName>
+              <Orders>
+                <Order>
+                  <Id>1345134</Id>
+                  <Value>123.33</Value>
+                </Order>
+              </Orders>
+            </contact>
+          </contacts>
+        </ContactListResult>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" ParameterActualType="ReplayMocks.ExampleDomain.ContactsWithMissingInformationByFiltersRequest, ReplayMocks.ExampleDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ParameterExpectedType="ReplayMocks.ExampleDomain.ContactsWithMissingInformationByFiltersRequest, ReplayMocks.ExampleDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <Value>
+            <ContactsWithMissingInformationByFiltersRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <HasOrders xsi:nil="true" />
+              <HasAddress>false</HasAddress>
+              <MaxResults>100</MaxResults>
+            </ContactsWithMissingInformationByFiltersRequest>
+          </Value>
+        </Parameter>
+      </Parameters>
+    </LoggedCall>
+  </Calls>
+</History>
