@@ -1,0 +1,7 @@
+﻿tidy code
+serialise without double xml escaping
+data structure to support fast look up
+check if types are uniquely /accurately serialisable
+cache proxy
+verify behaviour
+
