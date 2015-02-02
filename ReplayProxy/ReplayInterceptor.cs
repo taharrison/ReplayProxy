@@ -3,7 +3,7 @@ using Castle.DynamicProxy;
 
 namespace ReplayProxy
 {
-    public abstract class ReplayInterceptor : IInterceptor
+    internal abstract class ReplayInterceptor : IInterceptor
     {
         public History PreviousRunLog { get; set; }
         public History ThisRunLog { get; set; }

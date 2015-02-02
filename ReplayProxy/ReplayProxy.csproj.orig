@@ -49,7 +49,11 @@
     <Compile Include="CallRecordingInterceptor.cs" />
     <Compile Include="CallReplayingInterceptor.cs" />
     <Compile Include="CallCachingInterceptor.cs" />
+<<<<<<< HEAD:ReplayProxy/ReplayProxy.csproj
     <Compile Include="CopyByXmlSerialisation.cs" />
+=======
+    <Compile Include="CompoundEqualityComparer.cs" />
+>>>>>>> first testes for a compound equality comparer:ReplayMocks/ReplayMocks.csproj
     <Compile Include="History.cs" />
     <Compile Include="EqualityByXmlSerialisation.cs" />
     <Compile Include="LoggedCall.cs" />
@@ -63,7 +67,7 @@
     <Compile Include="TypeRequiresDefaultConstructorException.cs" />
     <Compile Include="UnexpectedCallException.cs" />
     <Compile Include="VerifierOptions.cs" />
-    <Compile Include="Utilities\XmlSerialiser.cs" />
+    <Compile Include="XmlSerialiser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wishlist.txt" />

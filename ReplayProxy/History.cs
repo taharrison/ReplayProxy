@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Castle.DynamicProxy;
+using ReplayProxy.Utilities;
 
 namespace ReplayProxy
 {
     public class History
     {
-        public List<LoggedCall> Calls { get; set; }
+        public List<LoggedCall> Calls { get; internal set; }
 
         public History()
         {
@@ -31,7 +32,7 @@ namespace ReplayProxy
             Calls.Add(asLoggedCall);
         }
 
-        public void AddException(IInvocation invocation, Exception exception)
+        internal void AddException(IInvocation invocation, Exception exception)
         {
             var asLoggedCall = ConvertToLoggedCall(invocation);
             asLoggedCall.ThrownExceptionType = exception.GetType().AssemblyQualifiedName;
@@ -131,7 +132,6 @@ namespace ReplayProxy
 
             return true;
         }
-
 
         public T ThrowInstance<T>() where T : Exception, new()
         {

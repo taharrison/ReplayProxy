@@ -6,7 +6,7 @@ using Castle.DynamicProxy;
 
 namespace ReplayProxy
 {
-    public class CallLoggingInterceptor : IInterceptor
+    internal class CallLoggingInterceptor : IInterceptor
     {
         private StringBuilder _log = new StringBuilder();
         public string Log { get { return _log.ToString();  }}

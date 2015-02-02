@@ -5,7 +5,7 @@ using Castle.DynamicProxy;
 
 namespace ReplayProxy
 {
-    public class CallRecordingInterceptor : ReplayInterceptor
+    internal class CallRecordingInterceptor : ReplayInterceptor
     {
         public override void ProcessIntercept(IInvocation invocation)
         {

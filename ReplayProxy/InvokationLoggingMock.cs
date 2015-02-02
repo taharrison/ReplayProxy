@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ReplayProxy
 {
-    public class InvokationLoggingMock<T> where T : class
+    internal class InvokationLoggingMock<T> where T : class
     {
         public T Object { get; private set; }
 

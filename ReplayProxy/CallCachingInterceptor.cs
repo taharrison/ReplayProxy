@@ -4,9 +4,9 @@ using Castle.DynamicProxy;
 
 namespace ReplayProxy
 {
-    public class CallCachingInterceptor : ReplayInterceptor
+    internal class CallCachingInterceptor : ReplayInterceptor
     {
-        public CallCachingInterceptor(History history) : base(history)
+        internal CallCachingInterceptor(History history) : base(history)
         {
         }
 

@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 
 namespace ReplayProxy
 {
-    public class ReplayProxy
+    internal class ReplayProxy
     {
         protected ReplayInterceptor _interceptor;
 
@@ -82,7 +82,7 @@ namespace ReplayProxy
         }
     }
 
-    public class ReplayProxy<T> :ReplayProxy where T : class
+    internal class ReplayProxy<T> :ReplayProxy where T : class
     {
         public T Object { get; protected set; }
 

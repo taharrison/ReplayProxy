@@ -1,3 +1,5 @@
+using ReplayProxy.Utilities;
+
 namespace ReplayProxy
 {
     public interface ICopier<T>
@@ -5,7 +7,7 @@ namespace ReplayProxy
         T Copy(T source);
     }
 
-    public class CopyByXmlSerialisation : ICopier<object>
+    internal class CopyByXmlSerialisation : ICopier<object>
     {
         public object Copy(object source)
         {

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ReplayProxy.Utilities;
 
 namespace ReplayProxy
 {
-    public class EqualityByXmlSerialisation : IEqualityComparer<object>
+    internal class EqualityByXmlSerialisation : IEqualityComparer<object>
     {
         public bool Equals(object arg1, object arg2)
         {

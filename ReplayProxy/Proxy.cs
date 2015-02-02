@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ReplayProxy.Utilities;
 
 namespace ReplayProxy
 {
@@ -43,6 +44,9 @@ namespace ReplayProxy
             return new BehaviourVerifier(comparer, history);
         }
 
+        /// <summary>
+        /// This call is in beta
+        /// </summary>
         public static bool ConfirmSameCallsWereMade(object proxyObject, VerifierOptions options = VerifierOptions.Default_SameCallsSameNumberOfTimesInAnyOrder)
         {
             return proxyObjectsAndProxies[proxyObject].ConfirmSameCallsWereMade(options);

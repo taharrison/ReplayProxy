@@ -1,14 +1,15 @@
 using System;
+using ReplayProxy.Utilities;
 
 namespace ReplayProxy
 {
     public class BehaviourLogItem
     {
-        public bool Pass { get; set; }
+        public bool Pass { get; internal set; }
         
-        public LoggedCall Call { get; set; }
+        public LoggedCall Call { get; internal set; }
 
-        public object ActualReturnValue { get; set; }
+        public object ActualReturnValue { get; internal set; }
 
         public override string ToString()
         {

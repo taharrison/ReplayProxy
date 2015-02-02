@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
+using ReplayProxy.Utilities;
 
 namespace ReplayProxy
 {
@@ -66,9 +67,6 @@ namespace ReplayProxy
             } while (reader.NodeType != XmlNodeType.EndElement);
             reader.ReadEndElement();
         }
-
-       // Debug.WriteLine(reader.NodeType);
-        
 
         public void WriteXml(XmlWriter writer)
         {
