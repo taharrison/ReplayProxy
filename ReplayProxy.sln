@@ -7,12 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayProxy", "ReplayProxy\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayProxy.Tests", "ReplayProxy.Tests\ReplayProxy.Tests.csproj", "{FBB20603-541B-402F-84BD-B412C65E2F90}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dlls", "dlls", "{E6524FEF-5307-4AA3-897C-3128A998FFD2}"
-	ProjectSection(SolutionItems) = preProject
-		dlls\Castle.Core.dll = dlls\Castle.Core.dll
-		dlls\nunit.framework.dll = dlls\nunit.framework.dll
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayProxy.ExampleDomain", "ReplayProxy.ExampleDomain\ReplayProxy.ExampleDomain.csproj", "{845D3CD2-1C17-4281-8073-47BDEF1F4FC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayProxy.ExampleDomain.Tests", "ReplayProxy.ExampleDomain.Tests\ReplayProxy.ExampleDomain.Tests.csproj", "{CB8F9FCD-DDD2-4FFC-BFF1-9D815CE11232}"
