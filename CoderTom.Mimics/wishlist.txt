@@ -1,0 +1,39 @@
+﻿properties
+
+recorder
+	ensure histories are generated with unique calls
+
+equality strategy for BV   *** requested by steve
+
+
+flags for behaviour in order / idempotent / stateless   *** requested by alan
+
+
+check if functions have out/ref parameters and fail on recording if so ***
+
+
+support functions with out parameters **
+
+
+log types and return types as both base and actual??
+
+
+better exceptions when unexpected calls happen 
+
+data structure to support fast look up
+
+make serialisation and equality check into a strategy
+
+tidy code
+
+documentation comments
+
+enable a test pattern (possibly in conjunction with nunit) which allows consumer testing ONLY under one context (using persisted history) and integration testing under the other test context (and behaviour verification too?)
+
+
+check if types are uniquely /accurately serialisable
+tool to help identify if a type is serialisable - deep equality check using reflection
+
+
+
+BUG: replay proxy cannot replay histories recorded from older version assemblies
