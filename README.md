@@ -1,3 +1,10 @@
+# THIS REPOSITORY HAS MOVED
+
+Please see https://github.com/taharrison/Mimics for all future changes.
+
+This rename was done to give the library a unique, catchy and easy to remember name, and coincides with the first NuGet release.  The ReplayProxy repository will be removed in due course.
+
+
 # Mimics
 *A new way to isolation test legacy .NET code - record existing behaviour and assert nothing has changed as you refactor.*
 
